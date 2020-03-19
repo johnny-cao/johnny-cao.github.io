@@ -215,4 +215,28 @@
             $zh.style.display = "none";
             $zh.classList.remove("active");
         // default to zh-cn
-        
+        }else{
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $zh.classList.add("active");
+            $en.style.display = "none";
+            $en.classList.remove("active");
+        }
+        // interop with catalog 
+        if ("{{ page.catalog }}") generateCatalog(".catalog-body");
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            lang = "zh"
+        }else{
+            lang = "en"
+        }
+        setLang(lang)
+    }
+
+    // init
+    _render();
+</script>
+{% endif %}
