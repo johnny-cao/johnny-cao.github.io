@@ -1,0 +1,25 @@
+---
+layout:     post
+title:      "Hello 2020"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2020-03-19 12:00:00
+author:     "Johnny"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 生活
+    - Meta
+---
+
+> “Yeah It's on. ”
+
+
+Johnny 的 Blog 就这么开通了。
+
+2020 年，Johnny 总算有个地方可以好好写点东西了。
+
+(此处省略n个字...)
+
+—— Hux 后记于 2020.3
+
+
